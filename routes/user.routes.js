@@ -11,8 +11,8 @@ router.get("/get", getUser)
 export default router
 
 /**
-=======register:=======
-
+=======register: ,createUser=======
+api: http://localhost:3000/api/user/create
 Data:{
     name:"",
     email:"",
@@ -31,6 +31,20 @@ res:{
     },
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwiZW1haWwiOiJSYWh1bFRhYWsxMjNAZ21haWwuY29tIiwiaWF0IjoxNzI5NjkyMjc4LCJleHAiOjE3Mjk2OTk0Nzh9.JLo7I3GzS-7obikbb_MCbDGNVqKTQgJA7M-KM1pHyrQ"
 }
+
+==========update=======
+api: http://localhost:3000/api/user/update
+data:{
+    email:"efef@gmail.com",
+    oldPassword:"Rahuile!4f",
+    newPassword:"FEfkejmf@1f5"
+}
+
+==========delete:=======
+api : http://localhost:3000/api/user/delete/1
+
+res : "delete sucessfully"
+
 
 ==========login:=======
 
